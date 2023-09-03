@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background-color: hsl(213, 19%, 18%); */
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    color: #eee;
+    /* background-color: hsl(25, 97%, 53%); */
+    /* White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+}
+
+h1.topic {
+    font-size: 50px;
+    margin: 60px;
+    font-family: 'Press Start 2P', cursive !important;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+
+/* for temp */
+
+.container {
+    text-align: center;
+    background-color: rgba(37, 45, 55, 0.5);
+    backdrop-filter: blur(10px);
+    /* border: 1px solid hsl(25, 97%, 53%); */
+    border-radius: 50px;
+    padding: 30px;
+    border: 5px solid hsla(72, 90%, 44%, 0.8);
+    width: 600px;
+    box-shadow: 2px -2px 143px -5px rgba(222, 49, 222, 0.763);
+}
+
+.wrapper-container {
+    display: flex;
+    height: 350px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid hsl(25, 97%, 53%); */
+    padding: 10px;
+    gap: 10px;
+}
+
+.part1 {
+    /* border: 1px solid #eee; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.part2 {
+    /* border: 1px solid #eee; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+/* .part1 .user {
+    background-color: #eee;
+}
+
+.user-img {
+    background-color: rgb(38, 255, 0);
+}
+
+.game-img .result {
+    background-color: red;
+} */
+
+.section-1 h1 {
+    font-size: 45px;
+}
+
+.user-img-content img {
+    width: 80px;
+    height: 80px;
+}
+
+.part1,
+.part2 {
+    width: 300px;
+}
+
+.user-img-content {
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 1px auto;
+}
+
+.user-choice {
+    margin-left: 40px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.user-img {
+    /* border: 1px solid black; */
+}
+
+.user-choice img {
+    width: 80px;
+    height: 80px;
+    background-color: #eee;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.user-choice img:hover {
+    background-color: hsl(72, 90%, 44%);
+}
+
+.result img {
+    width: 80px;
+    height: 80px;
+    background-color: #eee;
+    padding: 10px;
+}
